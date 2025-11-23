@@ -1,0 +1,243 @@
+<!-- Redline Visualz - Finished Single Page Template (Version 3) -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Redline Visualz</title>
+  <meta name="description" content="Redline Visualz — Premium helmets & bike parts. DM to order on Instagram (@redline.visualz)." />
+  <style>
+    nav {
+  background: #000;
+  color: #fff;
+  padding: 15px 20px;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.logo {
+  height: 45px;
+  width: auto;
+  border-radius: 8px;
+}
+
+.logo-link {
+  display: flex;
+  align-items: center;
+}
+
+    :root{
+      --red:#D90429;
+      --blue:#0066FF;
+      --bg:#ffffff;
+      --text:#111;
+    }
+    *{box-sizing:border-box}
+    body{margin:0;font-family:Inter, system-ui, -apple-system, 'Segoe UI', Roboto, Arial;color:var(--text);background:var(--bg);-webkit-font-smoothing:antialiased}
+    <body>
+    
+<nav>
+  <a href="index.html" class="logo-link">
+    <img src="logo.png.PNG" alt="Redline Visualz Logo" class="logo">
+  </a>
+  <h1>REDLINE VISUALZ</h1>
+</nav>
+
+    a{color:inherit}
+    header.hero{background:url('https://i.ibb.co/3Nc9fDf/helmet-banner.jpg') center/cover no-repeat; padding:90px 20px; text-align:center;color:#fff}
+    header .brand{max-width:1100px;margin:0 auto;display:flex;align-items:center;justify-content:space-between;gap:20px}
+    header h1{font-size:34px;margin:0;text-shadow:0 6px 18px rgba(0,0,0,0.6)}
+    header p{margin:8px 0 18px;font-size:18px;text-shadow:0 6px 18px rgba(0,0,0,0.6)}
+    .btn{display:inline-block;background:var(--red);color:#fff;padding:12px 18px;border-radius:10px;text-decoration:none;font-weight:600}
+    main{max-width:1200px;margin:0 auto;padding:36px 20px}
+
+    /* marquee */
+    .brands-marquee{overflow:hidden;border-top:1px solid #f0f0f0;border-bottom:1px solid #f0f0f0;background:#fff;padding:12px 0;margin-bottom:24px}
+    .brands-marquee .track{display:flex;gap:30px;animation:scroll 16s linear infinite}
+    @keyframes scroll{0%{transform:translateX(0)}100%{transform:translateX(-50%)}}
+
+    /* grid */
+    .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:20px}
+
+    /* cards (premium shadow style) */
+    .card{background:#fff;border:2px solid var(--blue);border-radius:12px;padding:18px;box-shadow:0 10px 30px rgba(0,0,0,0.18);transition:transform .25s ease,box-shadow .25s ease}
+    .card:hover{transform:translateY(-8px);box-shadow:0 18px 60px rgba(0,0,0,0.22)}
+    .card img{width:100%;height:170px;object-fit:cover;border-radius:8px}
+    .card h3{margin:10px 0 6px;font-size:18px}
+    .card p{margin:0 0 12px;color:#555;font-size:14px}
+    .card .cta{display:flex;gap:10px;align-items:center}
+    .ghost{background:transparent;border:1px solid rgba(17,17,17,0.06);padding:10px 12px;border-radius:8px}
+
+    /* sections */
+    section{padding:28px 0}
+    h2{font-size:22px;margin:0 0 18px}
+
+    /* Why choose us */
+    .features{display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:16px}
+    .feature{background:#fafafa;padding:18px;border-radius:10px;box-shadow:0 6px 18px rgba(0,0,0,0.04);text-align:center}
+    .feature h4{margin:10px 0 6px}
+
+    footer{background:#0f1720;color:#fff;padding:30px 20px;margin-top:40px}
+    .footer-inner{max-width:1100px;margin:0 auto;display:flex;flex-wrap:wrap;gap:20px;align-items:center;justify-content:space-between}
+
+    /* responsive */
+    @media (max-width:720px){header .brand{flex-direction:column;align-items:center}header h1{font-size:28px} .card img{height:150px}}
+  </style>
+</head>
+<body>
+  <!-- HERO -->
+  <header class="hero">
+    <div class="brand">
+      <div style="text-align:left">
+        <!-- Logo placeholder (replace with your logo image) -->
+        <img src="https://i.ibb.co/2s5kL9W/logo-placeholder.png" alt="Redline Visualz" style="height:56px;border-radius:6px;object-fit:contain">
+      </div>
+      <div style="flex:1;text-align:center">
+        <h1>Redline Visualz</h1>
+        <p>Premium Helmets & Bike Parts — DM to order on Instagram</p>
+        <a class="btn" href="#shop">Shop Now</a>
+      </div>
+      <div style="text-align:right;color:#fff;opacity:0.95">
+        <a class="btn" href="https://instagram.com/redline.visualz" target="_blank">DM on Instagram</a>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- marquee brands -->
+    <div class="brands-marquee" aria-hidden="true">
+      <div class="track">
+        <div style="display:flex;gap:40px;align-items:center">
+          <strong>AGV</strong>
+          <strong>MT</strong>
+          <strong>AXOR</strong>
+          <strong>SMK</strong>
+          <strong>Steelbird</strong>
+          <strong>LS2</strong>
+          <strong>AGV</strong>
+          <strong>MT</strong>
+          <strong>AXOR</strong>
+        </div>
+      </div>
+    </div>
+
+    <!-- AGV Premium Collection -->
+    <section id="shop">
+      <h2 style="color:var(--red)">AGV Premium Collection</h2>
+      <div class="grid" style="margin-top:12px">
+        <article class="card" style="background:#0b0b0b;color:#fff;border-color:transparent">
+          <img src="https://i.ibb.co/B6KZq8p/agv-pista.jpg" alt="AGV Pista GP">
+          <h3>AGV Pista GP</h3>
+          <p>Flagship racing helmet — premium protection and aerodynamics.</p>
+          <div class="cta">
+            <a class="btn" href="https://instagram.com/redline.visualz" target="_blank">Order on Instagram</a>
+          </div>
+        </article>
+
+        <article class="card" style="background:#0b0b0b;color:#fff;border-color:transparent">
+          <img src="https://i.ibb.co/1T2q9rd/agv-k6.jpg" alt="AGV K6">
+          <h3>AGV K6</h3>
+          <p>Sport-touring performance with lightweight construction.</p>
+          <div class="cta">
+            <a class="btn" href="https://instagram.com/redline.visualz" target="_blank">Order on Instagram</a>
+          </div>
+        </article>
+
+        <article class="card" style="background:#0b0b0b;color:#fff;border-color:transparent">
+          <img src="https://i.ibb.co/2yH0v3N/agv-k3.jpg" alt="AGV K3">
+          <h3>AGV K3</h3>
+          <p>Everyday rider favorite — attractive graphics and comfort.</p>
+          <div class="cta">
+            <a class="btn" href="https://instagram.com/redline.visualz" target="_blank">Order on Instagram</a>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- Other Brands -->
+    <section>
+      <h2>Other Popular Brands</h2>
+      <div class="grid" style="margin-top:12px">
+        <article class="card">
+          <img src="https://i.ibb.co/8b4yWqg/mt-helmet.jpg" alt="MT Helmet">
+          <h3>MT Helmets</h3>
+          <p>High value mid-range helmets — widely available.</p>
+          <div class="cta"><a class="btn" href="https://instagram.com/redline.visualz" target="_blank">Order on Instagram</a></div>
+        </article>
+
+        <article class="card">
+          <img src="https://i.ibb.co/x8s0v6r/axor.jpg" alt="Axor Helmet">
+          <h3>Axor</h3>
+          <p>Trusted budget-premium option across India.</p>
+          <div class="cta"><a class="btn" href="https://instagram.com/redline.visualz" target="_blank">Order on Instagram</a></div>
+        </article>
+
+        <article class="card">
+          <img src="https://i.ibb.co/3Qm3Jk4/smk.jpg" alt="SMK Helmet">
+          <h3>SMK</h3>
+          <p>Affordable styles and variety — great for everyday riders.</p>
+          <div class="cta"><a class="btn" href="https://instagram.com/redline.visualz" target="_blank">Order on Instagram</a></div>
+        </article>
+
+        <article class="card">
+          <img src="https://i.ibb.co/tcjpG6c/steelbird.jpg" alt="Steelbird Helmet">
+          <h3>Steelbird</h3>
+          <p>Indian favourite with large model range and spares.</p>
+          <div class="cta"><a class="btn" href="https://instagram.com/redline.visualz" target="_blank">Order on Instagram</a></div>
+        </article>
+      </div>
+    </section>
+
+    <!-- Why Choose Us -->
+    <section>
+      <h2>Why Choose Redline Visualz</h2>
+      <div class="features" style="margin-top:12px">
+        <div class="feature">
+          <h4>100% Genuine Products</h4>
+          <p>We source directly from authorised distributors and trusted channels.</p>
+        </div>
+        <div class="feature">
+          <h4>Premium Presentation</h4>
+          <p>High-resolution photos, clear images and professional product cards.</p>
+        </div>
+        <div class="feature">
+          <h4>DM to Order</h4>
+          <p>Fast replies on Instagram — enquire for sizes, colours and availability.</p>
+        </div>
+        <div class="feature">
+          <h4>Secure UPI Payments</h4>
+          <p>Pay via UPI after confirming your order through DM.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- About -->
+    <section>
+      <h2>About Redline Visualz</h2>
+      <p style="max-width:900px">Redline Visualz is a premium showroom for riders who demand the best. We focus on high-safety helmets, quality bike parts and a seamless buying experience — all through Instagram DM for personalised service. Logo and product images can be updated anytime.</p>
+    </section>
+
+    <!-- Contact -->
+    <section>
+      <h2>Contact</h2>
+      <p>Want to buy or ask about a product? Message us on Instagram — we respond fast.</p>
+      <a class="btn" href="https://instagram.com/redline.visualz" target="_blank">DM on Instagram</a>
+    </section>
+
+  </main>
+
+  <footer>
+    <div class="footer-inner">
+      <div>
+        <strong>Redline Visualz</strong>
+        <div style="opacity:0.8;margin-top:6px">Premium helmets & bike parts • DM to order</div>
+      </div>
+      <div style="opacity:0.9">
+        <a href="https://instagram.com/redline.visualz" target="_blank" style="color:#fff;text-decoration:none">@redline.visualz</a>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>
